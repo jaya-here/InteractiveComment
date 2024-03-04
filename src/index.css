@@ -1,0 +1,17 @@
+:root {
+    font-family: 'Rubik', sans-serif;
+    background-color:hsl(228, 33%, 97%);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: auto;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    max-width: 1200px;
+  }

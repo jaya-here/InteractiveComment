@@ -1,0 +1,58 @@
+.overlay {
+    position: fixed;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    z-index:10;
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(1px);
+    font-family: inherit;
+}
+
+.overlay-content {
+    margin:1.5rem 2rem;
+    background-color: whitesmoke;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+.text-color {
+    color: gray;
+    line-height: 1.2rem;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel__button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: hsl(239, 57%, 85%);
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+    display: block;
+    }
+
+.deletec__button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: hsl(358, 79%, 66%);
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+    display: block;
+}

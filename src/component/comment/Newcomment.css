@@ -1,0 +1,52 @@
+.newcomment  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    padding:0.5rem 0.5rem 0.5rem 0.95rem;
+    gap:1rem;
+}
+
+
+.newcomment__text{
+    order:-1;
+    flex: 1 0 100%;
+    transform: translateY(-10%);
+   
+}
+
+@media screen and (min-width:576px){
+    .newcomment {
+        width: 100%;
+    }
+
+    .newcomment-reply{
+        width: calc(100% - 4rem);
+        align-self: flex-end;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .newcomment__text{
+        order:0;
+        flex: 1 0 auto;
+       
+    }
+    
+}
+
+.button-reply {
+border-radius: 8px;
+border: 1px solid transparent;
+padding: 0.6em 1.2em;
+font-size: 1em;
+font-weight: 500;
+font-family: inherit;
+background-color: hsl(238, 40%, 52%);
+cursor: pointer;
+color:hsl(0, 0%, 100%);
+transform: translateX(-10%);
+}
